@@ -197,6 +197,12 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
 
 	header {
 		margin-bottom: 1em;
