@@ -176,6 +176,10 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
 	sup {
 		position: relative;
 		top: -0.5em;
