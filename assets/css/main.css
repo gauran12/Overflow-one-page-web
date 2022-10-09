@@ -963,6 +963,21 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 60px;
 						}
+			input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+	sup {
+		position: relative;
+		top: -0.5em;
+		font-size: 0.8em;
+	}
+
+	hr {
+		border: 0;
+		border-top: solid 1px #dad9d9;
+		margin: 2em 0 2em 0;
+	}
 
 				.row.gtr-200 {
 					margin-top: -80px;
