@@ -191,6 +191,17 @@ input::-moz-focus-inner {
 		border-top: solid 1px #dad9d9;
 		margin: 2em 0 2em 0;
 	}
+	input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 18pt;
+		line-height: 1.75em;
+		font-weight: 300;
+		letter-spacing: 1px;
+		color: #3a3939;
+		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+		-webkit-text-stroke: 0.25px;
+	}
+
 
 	blockquote {
 		border-left: solid 0.5em #eae9e9;
