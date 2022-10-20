@@ -233,6 +233,17 @@
 	br.clear {
 		clear: both;
 	}
+	sub {
+		position: relative;
+		top: 0.5em;
+		font-size: 0.8em;
+	}
+
+	sup {
+		position: relative;
+		top: -0.5em;
+		font-size: 0.8em;
+	}
 
 /* Container */
 
