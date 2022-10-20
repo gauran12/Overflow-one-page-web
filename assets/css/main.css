@@ -565,7 +565,13 @@ input, select, textarea {
 				.row.aln-bottom {
 					align-items: flex-end;
 				}
+			.row.gtr-200.gtr-uniform {
+				margin-top: -80px;
+			}
 
+				.row.gtr-200.gtr-uniform > * {
+					padding-top: 80px;
+				}
 				.row > .imp-wide {
 					order: -1;
 				}
